@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 /* API KEY */
-let apiKey = 'RGAPI-9b5feb53-5cb7-4b4c-9067-11b0425b108c'
+let apiKey = 0
 
 /* QUEUE DATA JSON */
 
