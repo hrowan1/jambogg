@@ -1,0 +1,29 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+		<script src="./script.js" async defer></script>
+		<link rel="stylesheet" href="general.css">
+		<link rel="stylesheet" href="dark.css">
+	</head>
+
+	<body>
+		<div id="titleimg">
+			<img src="./jambogg.png" width=600 height=225 ></image>
+		</div>
+
+		<span id="searchblock">
+			<form id="searchbar">
+
+				<input type="text" id="search" placeholder="Type Summoner Name..." onkeydown="if (event.key == 'Enter') {event.preventDefault(); searchFunction()}"></input>
+				<label style="color: black">|</label>
+				<select id="serverSelect">
+					<option value="euw">EUW</option>
+					<option value="na">NA</option>
+				</select>
+
+			</form>
+		</span>
+
+	</body>
+</html>

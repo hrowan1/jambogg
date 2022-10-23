@@ -1,0 +1,39 @@
+/* dark mode styling */
+
+:root {
+	--mainColor: #1C1C1F;
+	--secColor: #34343A;;
+}
+
+body {
+	background-color:  var(--mainColor);
+	color:  white;
+	font-family: Helvetica, Arial;
+}
+
+#searchblock {
+	background: var(--secColor);
+}
+
+/* classes */
+
+.gameLi {
+	/*background: var(--secColor);*/
+}
+
+/* color gradients */
+.gameLoss {
+	background-image: linear-gradient(to right,#DE6163,#D2042D);
+}
+
+.gameWin {
+	background-image: linear-gradient(to right,#ADD8E6, #0000FF);
+}
+
+.gameWin {
+
+}
+
+.vl {
+	color: var(--mainColor);
+}

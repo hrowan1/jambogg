@@ -1,0 +1,125 @@
+/* component css by id */
+#titleimg {
+	/*border: 2px solid blue;*/
+	display:  flex;
+	justify-content: center;
+	margin-top: 200;
+
+}
+
+#searchblock {
+	/*border: 2px solid blue;*/
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	width: 800;
+	margin: auto;
+}
+
+#searchbar {
+	margin: auto;
+}
+
+#serverSelect {
+	border-radius: 30px;
+	display: inline-flex;
+	width: 135;
+	height: 50;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+#serverSelect option {
+	color: black;
+}
+
+#search {
+	width: 650;
+	height: 50;
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+#summonerIconSquare {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#matchList {
+	margin: 10px;
+}
+
+#test {
+	font-size: 70;
+	color: black;
+}
+
+/* classes */
+
+.gameLi {
+	width: 800px;
+	height: 150px;
+	margin: auto;
+	border-radius: 10px;
+	display: flex;
+}
+
+.champSection {
+	display: flex;
+	justify-content: center;
+}
+
+.scoreSection {
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.dataSection {
+	margin-left: 10px;
+	padding: 10px;
+	display: block;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.vl {
+	border-left: 2px solid;
+	height: 50px;
+	align-self: center;
+	margin-left: 10px;
+}
+
+.champPlayed {
+	border-radius: 50%; /* square -> circle */
+	align-self: center;
+	margin-left: 30px;
+	height: 100px;
+	width: 100px;
+}
+
+.champAgainst {
+	border-radius: 50%;
+	align-self: center;
+	margin-left: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.vsLbl {
+	align-self: center;
+	margin-left: 20px;
+}
+
+
+/* general components */
+li {
+	list-style-type: none;
+}
